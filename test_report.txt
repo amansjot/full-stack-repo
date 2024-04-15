@@ -147,9 +147,14 @@
         at /home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/@emotion/react/dist/emotion-element-f93e57b0.cjs.dev.js:62:23
         at ChakraComponent (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/@chakra-ui/system/src/system.ts:88:53)
         at Grid2 (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/@chakra-ui/layout/src/grid.tsx:80:5)
+        at Home
+        at RenderedRoute (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/react-router/lib/hooks.tsx:657:26)
+        at Routes (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/react-router/lib/components.tsx:504:3)
         at div
         at /home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/@emotion/react/dist/emotion-element-f93e57b0.cjs.dev.js:62:23
         at ChakraComponent (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/@chakra-ui/system/src/system.ts:88:53)
+        at Router (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/react-router/lib/components.tsx:413:13)
+        at BrowserRouter (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/react-router-dom/index.tsx:757:3)
         at EnvironmentProvider (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/@chakra-ui/react-env/src/env.tsx:38:11)
         at ColorModeProvider (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/@chakra-ui/color-mode/src/color-mode-provider.tsx:33:5)
         at ThemeProvider (/home/runner/work/full-stack-repo/full-stack-repo/frontend/node_modules/@emotion/react/dist/emotion-element-f93e57b0.cjs.dev.js:125:32)
@@ -205,7 +210,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (278 ms)
+  ✕ renders learn react link (292 ms)
 
   ● renders learn react link
 
@@ -259,20 +264,26 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
------------------------|---------|----------|---------|---------|-------------------
-File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
------------------------|---------|----------|---------|---------|-------------------
-All files              |   22.85 |      2.5 |   21.73 |   23.18 |                   
- App.tsx               |     100 |      100 |     100 |     100 |                   
- ColorModeSwitcher.tsx |     100 |      100 |     100 |     100 |                   
- Logo.tsx              |     100 |       50 |     100 |     100 | 19                
- index.tsx             |       0 |        0 |     100 |       0 | 9-28              
- reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
- serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
- test-utils.tsx        |     100 |      100 |     100 |     100 |                   
------------------------|---------|----------|---------|---------|-------------------
+------------------------|---------|----------|---------|---------|-------------------
+File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+------------------------|---------|----------|---------|---------|-------------------
+All files               |   21.05 |      2.5 |   23.07 |   21.33 |                   
+ src                    |   15.71 |      2.5 |   17.39 |   15.94 |                   
+  App.tsx               |     100 |      100 |     100 |     100 |                   
+  ColorModeSwitcher.tsx |       0 |      100 |       0 |       0 | 12-17             
+  Logo.tsx              |     100 |       50 |     100 |     100 | 19                
+  index.tsx             |       0 |        0 |     100 |       0 | 9-28              
+  reportWebVitals.ts    |       0 |        0 |       0 |       0 | 3-10              
+  serviceWorker.ts      |       0 |        0 |       0 |       0 | 13-143            
+  test-utils.tsx        |     100 |      100 |     100 |     100 |                   
+ src/components         |     100 |      100 |     100 |     100 |                   
+  Navbar.tsx            |     100 |      100 |     100 |     100 |                   
+ src/pages              |      75 |      100 |      50 |      75 |                   
+  About.tsx             |      50 |      100 |       0 |      50 | 6                 
+  Home.tsx              |     100 |      100 |     100 |     100 |                   
+------------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.543 s
+Time:        3.563 s
 Ran all test suites.
