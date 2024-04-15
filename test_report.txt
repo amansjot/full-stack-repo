@@ -210,7 +210,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (292 ms)
+  ✕ renders learn react link (303 ms)
 
   ● renders learn react link
 
@@ -267,9 +267,9 @@ go away.[0m
 ------------------------|---------|----------|---------|---------|-------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ------------------------|---------|----------|---------|---------|-------------------
-All files               |   21.05 |      2.5 |   23.07 |   21.33 |                   
- src                    |   15.71 |      2.5 |   17.39 |   15.94 |                   
-  App.tsx               |     100 |      100 |     100 |     100 |                   
+All files               |   22.07 |     4.76 |   23.07 |   22.36 |                   
+ src                    |    16.9 |     4.76 |   17.39 |   17.14 |                   
+  App.tsx               |     100 |       50 |     100 |     100 | 9                 
   ColorModeSwitcher.tsx |       0 |      100 |       0 |       0 | 12-17             
   Logo.tsx              |     100 |       50 |     100 |     100 | 19                
   index.tsx             |       0 |        0 |     100 |       0 | 9-28              
@@ -285,5 +285,5 @@ All files               |   21.05 |      2.5 |   23.07 |   21.33 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.563 s
+Time:        3.501 s
 Ran all test suites.
