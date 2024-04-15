@@ -1,7 +1,8 @@
 {
   "name": "full-stack-repo-frontend",
   "version": "0.1.0",
-  "private": false,
+  "homepage": "https://amansjot.github.io/full-stack-repo/",
+  "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
